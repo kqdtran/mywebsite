@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html class='csstransitions csstransforms' lang='en'>
+  <head>
+    <meta charset='utf-8' />
+    <meta content='IE=Edge,chrome=1' http-equiv='X-UA-Compatible' />
+    <meta content='width=device-width, initial-scale=1.0' name='viewport' />
+    <title>IEOR 115 DP Proposal</title>
+    <!--[if lt IE 9]>
+      <script src='//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js'></script>
+    <![endif]-->
+    <script src="assets/js/jquery-1.9.0.min.js" type="text/javascript"></script>
+    <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="assets/js/deck.core.js" type="text/javascript"></script>
+    <script src="assets/js/deck.status.js" type="text/javascript"></script>
+    <link href="assets/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="assets/css/deck/deck.core.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="assets/css/deck/themes/transition/horizontal-slide.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="assets/css/deck/extensions/scale/deck.scale.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="assets/css/deck/extensions/status/deck.status.css" media="screen" rel="stylesheet" type="text/css" />
+    <script>
+        $(function() {
+          $.deck('.slide');
+        });
+    </script>
+  </head>
+  <body>
+    <div class='deck-container'>
+      <section class='slide' id='title-slide'>
+  <div class='vcenter'>
+    <h1>IEOR 115 DP Proposal</h1>
+    <h4>February 22, 2013</h4>
+  </div>
+</section>
+<section class='slide' id='team-member'>
+  <div class='row'>
+    <div class='span10'>
+      <h2>Team 6 Members</h2>
+      <table class='table table-bordered'>
+        <tbody>
+          <tr>
+            <td>
+              Steven Belding
+            </td>
+            <td>
+              Ami Bigit
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Morgan Fabian
+            </td>
+            <td>
+              Kimberly Lam
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Ben Lewis
+            </td>
+            <td>
+              Mana Nabati
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Khoa Tran
+            </td>
+            <td>
+              Alicia Zacherle
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class='slide' id='description'>
+  <div class='row'>
+    <div class='span10'>
+      <h2>About Our Client</h2>
+      <ul>
+        <li>
+          San Francisco-based startup
+        </li>
+        <li>
+          9 employees
+        </li>
+        <li>
+          1 warehouse
+        </li>
+        <li>
+          1 store (almost)
+        </li>
+        <li>
+          PC platform
+        </li>
+        <li>
+          Currently use MS Excel
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class='slide' id='product'>
+  <div class='row'>
+    <div class='span10'>
+      <h2>Their Product: Juice</h2>
+      <table class='table table-bordered'>
+        <tbody>
+          <tr>
+            <td>
+              <h6>About the juice</h6>
+            </td>
+            <td>
+              <h6>Three types of cleanses</h6>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              15 different juices
+            </td>
+            <td>
+              1. “Can You Kick It” for beginners
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              Raw + Organic
+            </td>
+            <td>
+              2. “Stuck in the Middle” for intermediate customers
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              Cold pressed
+            </td>
+            <td>
+              3. “Forever Young” for advanced customers
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <b>Juice cleanse options</b>
+              <ul>
+                <li>
+                  6 juices per day
+                </li>
+                <li>
+                  1 tea
+                </li>
+                <li>
+                  1, 3, or 5 days
+                </li>
+                <li>
+                  3 types (as seen on the right col)
+                </li>
+                <li>
+                  Customization available
+                </li>
+              </ul>
+            </td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class='slide' id='description'>
+  <div class='row'>
+    <div class='span10'>
+      <h2>Their Current Database</h2>
+      <ul>
+        <li>
+          Currently they use Microsoft Excel
+        </li>
+        <li>
+          The primary sheets: Order sheet, Customer sheet, Production sheet, <br>
+          Packaging, Delivery, and Labeling sheet
+        </li>
+        <li>
+          Orders through their website
+          <ul>
+            <li>
+              Linked to Shopify, a web-based e-commerce platform <br>
+              that allows businesses to create online stores
+            </li>
+            <li>
+              Orders are then <b>manually</b> entered into Excel.
+            </li>
+          </ul>
+        </li>
+        <li>
+          Currently, about 200 records in their spreadsheets
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class='slide' id='team-benefit'>
+  <div class='row'>
+    <div class='span10'>
+      <h2>What We Can Do</h2>
+      <ul>
+        <li>
+          User friendly database that’s easy to understand by their employees 
+          <ul><li>Error Avoidance</li></ul>
+        </li>
+        <li>
+          Construct powerful queries to sort and filter data
+        </li>
+        <li>
+          Generate reports and forms to navigate data easily
+        </li>
+        <li>
+          Inventory control
+        </li>
+        <li>
+          Increasing production efficiency
+          <ul>
+            <li>Reducing cycle time</li>
+            <li>Reduce amount of waste produced</li>
+            <li>Scheduling order of processes</li>
+            <li>Preventative maintenance</li>
+          </ul>
+        </li>
+        <li>
+          Analysis of their company strengths and weaknesses
+          <ul><li>Effectiveness of marketing techniques and event promotions</li></ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class='slide' id='team-benefit'>
+  <div class='row'>
+    <div class='span10'>
+      <h2>Team's Responsibilities</h2>
+      <ul>
+        <li>
+          Communication with “Project: Juice”: Steven Belding, Mana Nabati
+        </li>
+        <li>
+          Internal/External Scheduling: Steven Belding
+        </li>
+        <li>
+          Access database design: Ami Bigit, Ben Lewis, Khoa Tran
+        </li>
+        <li>
+          Generating ‘Cardinality Constraints’ diagrams: Ami Bigit, Kimberly Lam
+        </li>
+        <li>
+          Writing reports: Morgan Fabian, Mana Nabati, Alicia Zacherle
+        </li>
+        <li>
+          Preparing PowerPoint presentations: Morgan Fabian
+        </li>
+        <li>
+          Presenters: All members (3 members for each presentation)
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class='slide' id='product'>
+  <div class='row'>
+    <div class='span10'>
+      <h2>EER Diagram</h2>
+      <img src="assets/eer.png" alt="EER Diagram">
+    </div>
+  </div>
+</section>
+
+<section class='slide' id='schedule1'>
+  <div class='row'>
+    <div class='span10'>
+      <h2>Schedule (February)</h2>
+      Team meet every Tuesdays at 1:00 PM to:
+      <ul>
+        <li>reflect on previous project submissions </li> 
+        <li>follow up on future tasks to ensure we meet deadlines.</li>
+      </ul>
+      We are also going to have regular meetings with our client every other Saturday to inform them about our progress.
+      <table class='table table-bordered'>
+        <tbody>
+          <tr>
+            <td>
+              Tuesday February 19<sup>th</sup>
+            </td>
+            <td>
+              <ul>
+                <li>
+                  Re-draft team proposal (Mana/Morgan)
+                </li>
+                <li>
+                  DP Review I
+                </li>
+                <li>
+                  PowerPoint (Khoa/Steven)
+                </li>
+                <li>
+                  Project Summary, Textual Summary of Database Requirements, <br>
+                  Simplified EER Diagram (Alicia, Ami, Kimberly)
+                </li>
+                <li>
+                  Revise Project Schedule
+                </li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <font color="red">Friday February 22<sup>nd</sup></font>
+            </td>
+            <td>
+              <font color="red">DP Review I</font>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              Tuesday February 26<sup>th</sup>
+            </td>
+            <td>
+              <ul>
+                <li>
+                  Revise EER Diagram
+                </li>
+                <li>
+                  Revise Project Schedule (Steven) 
+                </li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class='slide' id='schedule2'>
+  <div class='row'>
+    <div class='span10'>
+      <h2>Schedule (March)</h2>
+      <table class='table table-bordered'>
+        <tbody>
+          <tr>
+            <td>
+              <font color="red">Monday March 4<sup>th</sup></font>
+            </td>
+            <td>
+              <font color="red">Revised EER Proposals</font>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              Tuesday March 5<sup>th</sup>
+            </td>
+            <td>
+              <ul>
+                <li>
+                  Revise Review I
+                </li>
+                <li>
+                  Revise EER Diagram
+                </li>
+                <li>
+                  DP Review II
+                  <ul>
+                  <li>
+                   Relational Design (Schema)
+                  </li>
+                  <li>
+                    Develop 5 “interesting” queries described in plain English
+                  </li>
+                   <li>
+                    IEOR Method Implementation Brainstorm
+                   </li>
+                  <li>
+                    MS Access Implementation
+                  </li>
+                  </ul>
+                </li>
+                <li>
+                  Revise Project Schedule (Steven)
+                </li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              Tuesday March 12<sup>th</sup>
+            </td>
+            <td>
+              DP Review II Continued (Powerpoint)
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              Tuesday March 19<sup>th</sup>
+            </td>
+            <td>
+              <ul>
+                <li>
+                  DP Review II Continued <br>
+                  Presentation Talking-Points
+                </li>
+                <li>
+                  Revise Project Schedule (Steven)
+                </li>
+              </ul> 
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <font color="red">Friday March 22<sup>nd</sup></font>
+            </td>
+            <td>
+              <font color="red">DP Review II</font>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class='slide' id='schedule3'>
+  <div class='row'>
+    <div class='span10'>
+      <h2>Schedule (April)</h2>
+      <table class='table table-bordered'>
+        <tbody>
+          <tr>
+            <td>
+              Tuesday April 2<sup>nd</sup>
+            </td>
+            <td>
+              <ul>
+                <li>
+                  Revise EER Diagram
+                </li>
+                <li>
+                  Revise Review II (Queries)
+                </li>
+                <li>
+                  Revise Review III
+                  <ul>
+                  <li>
+                   Simplified EER Diagram
+                  </li>
+                  <li>
+                    Relational Design (Schema)
+                  </li>
+                   <li>
+                    Screenshots of at least 20 tables of the relational <br>
+                    design implemented in Access Relational View
+                   </li>
+                  <li>
+                    5 queries described in plain English <br>
+                    and in algebra or SQL
+                  </li>
+                  <li>
+                    MS Access Implementation
+                  </li>
+                  </ul>
+                </li>
+                <li>
+                  Final Report (Mana/Morgan)
+                </li>
+                <li>
+                  Revise Project Schedule (Steven)
+                </li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              Tuesday April 9<sup>th</sup>
+            </td>
+            <td>
+              <li>
+                DP Review III Continued
+              </li>
+              <li>
+                Final Report (Mana/Morgan)
+              </li>
+              <li>
+                Revise Project Schedule (Steven)
+              </li>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class='slide' id='schedule4'>
+  <div class='row'>
+    <div class='span10'>
+      <h2>Schedule (April - May)</h2>
+      <table class='table table-bordered'>
+        <tbody>
+          <tr>
+            <td>
+              <font color="red">Monday April 15<sup>th</sup></font>
+            </td>
+            <td>
+              <font color="red">DP Review III (Written)</font>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              Tuesday April 16<sup>th</sup>
+            </td>
+            <td>
+              <ul>
+                <li>
+                  Revise Review I, II, and III
+                </li>
+                <li>
+                  Final Presentation
+                  <ul>
+                    <li>
+                      Normalization Analysis
+                    </li>
+                    <li>
+                      Screenshots of Access Implementation of <br>
+                      database design and queries
+                    </li>
+                    <li>
+                      At least 2 queries with realistic <br>
+                      examples of 5-10 tuples
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  Final Report Continued
+                </li>
+              </ul> 
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              Tuesday April 23<sup>rd</sup>
+            </td>
+            <td>
+              <li>
+                Final Presentation Continued <br>
+                Presentation Talking-Points
+              </li>
+              <li>
+                Final Report Continued
+              </li>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <font color="red">Monday May 3<sup>rd</sup></font>
+            </td>
+            <td>
+              <font color="red">Final Presentation</font>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <font color="red">Wednesday May 15<sup>th</sup></font>
+            </td>
+            <td>
+              <font color="red">Final Exam: Final Report</font>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<p class='deck-status'>
+  <span class='deck-status-current'></span>
+  /
+  <span class='deck-status-total'></span>
+</p>
+    </div>
+  </body>
+</html>
